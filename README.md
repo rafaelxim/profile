@@ -35,3 +35,6 @@ After the successfull installation of the packages: `yarn dev`
 If Everything is Good Then It Should Work, but let me new if something else happens
 
 Made with ❤️ by theSwordBreaker(we Destory all types of sword ⚡)
+
+Pagina inspirada em
+https://harnishdesign.net/demo/react/callum/demo/?theme=Full%20Screen%20Menu&intro=default
