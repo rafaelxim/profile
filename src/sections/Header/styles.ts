@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
     background-color: ${theme.colors.primary};
     display: flex;
     flex-direction: column;
+    overflow-y: hidden;
 
     @media ${device.mobileS} {
       padding: 2rem;

@@ -5,6 +5,7 @@ import { device } from '../../styles/mediaQueries';
 export const Wrapper = styled.div`
   ${({ theme }) => css`
     background-color: ${theme.colors.secondary};
+    overflow-y: hidden;
 
     @media ${device.mobileS} {
       padding: 0 2rem;
