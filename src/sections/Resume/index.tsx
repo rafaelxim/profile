@@ -50,7 +50,7 @@ const RESUME = [
 
 const Resume = () => {
   const [ref, entry] = useIntersectionObserver({
-    threshold: 0.4,
+    threshold: 0.1,
     root: null,
     rootMargin: '0px',
   });

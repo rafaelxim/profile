@@ -14,26 +14,9 @@ export const Wrapper = styled.div`
   }
 `;
 
-type ContentProps = {
-  isVisible?: boolean;
-};
-
-const ContentModifiers = {
-  isVisible: () => css`
-    opacity: 1;
-    transform: translateY(0);
-  `,
-};
-
-export const Content = styled.div<ContentProps>`
-  opacity: 0;
-  transform: translateY(100px);
+export const Content = styled.div`
   transition: all 0.5s ease;
-
-  ${({ isVisible }) => css`
-    padding: 10rem 0;
-    ${isVisible && ContentModifiers.isVisible()}
-  `}
+  padding: 10rem 0;
 `;
 export const Heading = styled.div`
   display: flex;
@@ -62,25 +45,80 @@ export const Experience = styled.div`
 export const Description = styled.div`
   flex: 1 1 66%;
 `;
-export const DescriptionTitle = styled.div`
-  ${({ theme }) => css`
+
+type DescriptionTitleProps = {
+  isVisible?: boolean;
+};
+
+const DescriptionTitleModifier = {
+  isVisible: () => css`
+    opacity: 1;
+    transform: translateY(0);
+  `,
+};
+
+export const DescriptionTitle = styled.div<DescriptionTitleProps>`
+  ${({ theme, isVisible }) => css`
+    opacity: 0;
+    transform: translateY(100px);
     font-size: 3.2rem;
     font-weight: 400;
     line-height: 3.84rem;
     margin-bottom: 2rem;
+    transition: all 0.8s ease;
+
+    ${isVisible && DescriptionTitleModifier.isVisible()}
 
     > strong {
       border-bottom: 3px solid ${theme.colors.primary};
     }
   `}
 `;
-export const DescriptionText = styled.div`
-  font-size: 2.1rem;
-  font-weight: 400;
-  line-height: 3.78rem;
+
+type DescriptionTextProps = {
+  isVisible?: boolean;
+};
+
+const DescriptionTextModifier = {
+  isVisible: () => css`
+    opacity: 1;
+    transform: translateX(0);
+  `,
+};
+
+export const DescriptionText = styled.div<DescriptionTextProps>`
+  ${({ isVisible }) => css`
+    font-size: 2.1rem;
+    font-weight: 400;
+    line-height: 3.78rem;
+    opacity: 0;
+    transform: translateX(200px);
+    transition: all 1.2s ease 0.3s;
+
+    ${isVisible && DescriptionTextModifier.isVisible()}
+  `}
 `;
-export const ExperienceYears = styled.div`
-  flex: 1 1 33%;
+
+type ExperienceYearsProps = {
+  isVisible?: boolean;
+};
+
+const ExperienceYearsModifier = {
+  isVisible: () => css`
+    opacity: 1;
+    transform: scale(1);
+  `,
+};
+
+export const ExperienceYears = styled.div<ExperienceYearsProps>`
+  ${({ isVisible }) => css`
+    flex: 1 1 33%;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.8s ease 0.5s;
+
+    ${isVisible && ExperienceYearsModifier.isVisible()}
+  `}
 `;
 export const ExperienceNumber = styled.div`
   color: #4c4d4d;
@@ -125,25 +163,4 @@ export const InfoData = styled.div`
   @media ${device.tablet} {
     flex-wrap: nowrap;
   }
-`;
-export const Data = styled.div`
-  @media ${device.mobileL} {
-    flex: 1 0 50%;
-  }
-  @media ${device.tablet} {
-    flex: unset;
-  }
-`;
-export const DataDescription = styled.p`
-  ${({ theme }) => css`
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 2.88rem;
-    color: ${theme.colors.text.grey};
-  `}
-`;
-export const DataValue = styled.p`
-  font-size: 1.8rem;
-  font-weight: 600;
-  line-height: 3.24rem;
 `;

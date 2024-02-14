@@ -24,6 +24,16 @@ export const Wrapper = styled.div`
       padding: 0 13rem;
       gap: unset;
     }
+
+    @media ${device.laptopM} {
+      padding: unset;
+      gap: unset;
+    }
+
+    @media ${device.laptopL} {
+      padding: 0 13rem;
+      gap: unset;
+    }
   `}
 `;
 
@@ -42,8 +52,8 @@ export const Container = styled.div`
   @media ${device.tablet} {
     flex-direction: row;
     padding: 0 13rem;
-    justify-content: space-between;
-    gap: unset;
+    justify-content: center;
+    gap: 0px 6rem;
   }
 
   @media ${device.desktop} {

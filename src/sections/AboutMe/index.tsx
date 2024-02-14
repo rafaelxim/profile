@@ -2,29 +2,45 @@ import { useIntersectionObserver } from '@uidotdev/usehooks';
 import React from 'react';
 
 import Badge from '../../components/Badge';
+import PersonalInfo from '../../components/PersonalInfo';
 import Title from '../../components/Title';
 import * as S from './styles';
 
+const DEFAULT_OBSERVER_OPTIONS = {
+  threshold: 0.5,
+  root: null,
+  rootMargin: '0px',
+};
 const AboutMe = () => {
-  const [ref, entry] = useIntersectionObserver({
-    threshold: 0.4,
-    root: null,
-    rootMargin: '0px',
-  });
+  const [descriptionTitleref, descriptionTitleEntry] = useIntersectionObserver(
+    DEFAULT_OBSERVER_OPTIONS,
+  );
+  const [descriptionTextref, descriptionTextEntry] = useIntersectionObserver(
+    DEFAULT_OBSERVER_OPTIONS,
+  );
+  const [experienceYearsref, experienceYearsEntry] = useIntersectionObserver(
+    DEFAULT_OBSERVER_OPTIONS,
+  );
 
   return (
-    <S.Wrapper ref={ref}>
-      <S.Content isVisible={entry?.isIntersecting}>
+    <S.Wrapper>
+      <S.Content>
         <S.Heading>
           <Badge>Sobre Mim</Badge>
           <Title>Me conheça melhor</Title>
         </S.Heading>
         <S.Experience>
           <S.Description>
-            <S.DescriptionTitle>
+            <S.DescriptionTitle
+              isVisible={descriptionTitleEntry?.isIntersecting}
+              ref={descriptionTitleref}
+            >
               Olá, eu sou <strong>Rafael Herculano</strong>
             </S.DescriptionTitle>
-            <S.DescriptionText>
+            <S.DescriptionText
+              isVisible={descriptionTextEntry?.isIntersecting}
+              ref={descriptionTextref}
+            >
               Sou um desenvolvedor com paixão pelo design web. Gosto de criar sites
               simples, limpos e elegantes que oferecem valor real ao usuário. Diversos
               clientes obtiveram resultados excepcionais ao trabalhar comigo. Entregar
@@ -32,7 +48,10 @@ const AboutMe = () => {
               cliente, é meu lema.
             </S.DescriptionText>
           </S.Description>
-          <S.ExperienceYears>
+          <S.ExperienceYears
+            isVisible={experienceYearsEntry?.isIntersecting}
+            ref={experienceYearsref}
+          >
             <S.ExperienceBox>
               <S.CircularBackground />
               <S.ExperienceNumber>10</S.ExperienceNumber>
@@ -41,22 +60,10 @@ const AboutMe = () => {
           </S.ExperienceYears>
         </S.Experience>
         <S.InfoData>
-          <S.Data>
-            <S.DataDescription>Nome:</S.DataDescription>
-            <S.DataValue>Rafael Herculano</S.DataValue>
-          </S.Data>
-          <S.Data>
-            <S.DataDescription>Email:</S.DataDescription>
-            <S.DataValue>rafa.lj@hotmail.com</S.DataValue>
-          </S.Data>
-          <S.Data>
-            <S.DataDescription>Nascimento:</S.DataDescription>
-            <S.DataValue>29 de outubro</S.DataValue>
-          </S.Data>
-          <S.Data>
-            <S.DataDescription>Natural de:</S.DataDescription>
-            <S.DataValue>Rio de Janeiro, Brasil</S.DataValue>
-          </S.Data>
+          <PersonalInfo description="Nome:" value="Rafael Herculano" />
+          <PersonalInfo description="Email:" value="rafa.lj@hotmail.com" />
+          <PersonalInfo description="Nascimento:" value="29 de outubro" />
+          <PersonalInfo description="Natural de:" value="Rio de Janeiro, Brasil" />
         </S.InfoData>
       </S.Content>
     </S.Wrapper>
