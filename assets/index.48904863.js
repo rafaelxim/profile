@@ -170,6 +170,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
   `}
 `,_u=({children:e})=>{const[t,n]=tn({threshold:.5,root:null,rootMargin:"0px"});return F(jw,{isVisible:n==null?void 0:n.isIntersecting,ref:t,children:e})},Rw=V.div`
   background-color: #fff;
+  overflow-y: hidden;
 
   @media ${q.mobileS} {
     padding: 0 2rem;
@@ -331,6 +332,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     background-color: ${e.colors.primary};
     display: flex;
     flex-direction: column;
+    overflow-y: hidden;
 
     @media ${q.mobileS} {
       padding: 2rem;
@@ -474,6 +476,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }
 `,xx=()=>de(ux,{children:[de(cx,{children:[de(fx,{children:[F(dx,{children:"Ol\xE1, sou Rafael"}),F(ox,{onInit:e=>{e.typeString("Desenvolvedor").pauseFor(1500).deleteAll().typeString("Front-End").pauseFor(1500).start()},options:{loop:!0}}),F(px,{children:"do Rio de Janeiro, Brasil"}),de(mx,{children:[F(ax,{children:"Ver meus trabalhos"}),de(vx,{children:[F("span",{children:"Contato"}),F(pm,{})]})]})]}),F(hx,{children:F(gx,{children:F(yx,{src:ix})})})]}),F(wx,{children:F(mm,{})})]}),Sx=V.div`
   background-color: #fff;
+  overflow-y: hidden;
 
   @media ${q.mobileS} {
     padding: 0 2rem;
@@ -539,6 +542,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 `,Tx=[{id:1,title:"Gradua\xE7\xE3o | An\xE1lise de Sistemas",subtitle:"Faculdades FIJ / 2010 - 2014",description:"Curso de gradua\xE7\xE3o completo em An\xE1lise de Desenvolvimento de Sistemas."},{id:2,title:"Analista de Suporte",subtitle:"Atos / 2016",description:"Atividades de suporte ao usu\xE1rio e manuten\xE7\xE3o de computadores."},{id:3,title:"Desenvolvedor Front-End Jr.",subtitle:"F71 Tecnologia / 2016 - 2017",description:"Cria\xE7\xE3o e manuten\xE7\xE3o de interfaces de usu\xE1rio interativas e responsivas usando HTML, CSS e JavaScript."},{id:4,title:"Desenvolvedor Front-End Pleno",subtitle:"PSBI Consultoria / 2017 - 2018",description:"Respons\xE1vel por projetar, implementar e otimizar interfaces de usu\xE1rio complexas e din\xE2micas."},{id:5,title:"Desenvolvedor Front-End Pleno",subtitle:"Banco do Brasil Tecnologia / 2018 - 2019",description:"Respons\xE1vel por projetar, implementar e otimizar interfaces de usu\xE1rio complexas e din\xE2micas."},{id:6,title:"Desenvolvedor Front-End S\xEAnior",subtitle:"ALLOS / 2019 - 2024",description:"Desenvolvimento de interfaces de usu\xE1rio altamente sofisticadas e escal\xE1veis, aplicando profundo conhecimento em tecnologias front-end."}],Ax=()=>{const[e,t]=tn({threshold:.1,root:null,rootMargin:"0px"});return F(Sx,{ref:e,children:de(_x,{isVisible:t==null?void 0:t.isIntersecting,children:[de(kx,{children:[F(Eu,{children:"Meu Curr\xEDculo"}),F(_u,{children:"Um resumo da minha carreira"})]}),F(Cx,{children:Tx.map(n=>de(bx,{children:[F($x,{children:n.title}),F(Ox,{children:n.subtitle}),F(Px,{children:n.description})]},n.id))})]})})};var bu={},jx=$t.exports;Object.defineProperty(bu,"__esModule",{value:!0});var gm=bu.default=void 0,Rx=jx(Ot),Nx=Dt,Mx=(0,Rx.default)((0,Nx.jsx)("path",{d:"M6.36 18.78 6.61 21l1.62-1.54 2.77-7.6c-.68-.17-1.28-.51-1.77-.98l-2.87 7.9zm8.41-7.9c-.49.47-1.1.81-1.77.98l2.77 7.6L17.39 21l.26-2.22-2.88-7.9zM15 8c0-1.3-.84-2.4-2-2.82V3h-2v2.18C9.84 5.6 9 6.7 9 8c0 1.66 1.34 3 3 3s3-1.34 3-3zm-3 1c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"}),"Architecture");gm=bu.default=Mx;var $u={},Ix=$t.exports;Object.defineProperty($u,"__esModule",{value:!0});var ym=$u.default=void 0,zx=Ix(Ot),Lx=Dt,Dx=(0,zx.default)((0,Lx.jsx)("path",{d:"M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"}),"ColorLens");ym=$u.default=Dx;var Ou={},Fx=$t.exports;Object.defineProperty(Ou,"__esModule",{value:!0});var vm=Ou.default=void 0,Bx=Fx(Ot),Pf=Dt,Ux=(0,Bx.default)([(0,Pf.jsx)("circle",{cx:"9",cy:"9",r:"4"},"0"),(0,Pf.jsx)("path",{d:"M9 15c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zm7.76-9.64-1.68 1.69c.84 1.18.84 2.71 0 3.89l1.68 1.69c2.02-2.02 2.02-5.07 0-7.27zM20.07 2l-1.63 1.63c2.77 3.02 2.77 7.56 0 10.74L20.07 16c3.9-3.89 3.91-9.95 0-14z"},"1")],"RecordVoiceOver");vm=Ou.default=Ux;var Pu={},Vx=$t.exports;Object.defineProperty(Pu,"__esModule",{value:!0});var wm=Pu.default=void 0,Hx=Vx(Ot),Wx=Dt,Gx=(0,Hx.default)((0,Wx.jsx)("path",{d:"M17 1.01 7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"}),"Smartphone");wm=Pu.default=Gx;var Tu={},Kx=$t.exports;Object.defineProperty(Tu,"__esModule",{value:!0});var xm=Tu.default=void 0,Yx=Kx(Ot),Qx=Dt,Xx=(0,Yx.default)((0,Qx.jsx)("path",{d:"m20.38 8.57-1.23 1.85a8 8 0 0 1-.22 7.58H5.07A8 8 0 0 1 15.58 6.85l1.85-1.23A10 10 0 0 0 3.35 19a2 2 0 0 0 1.72 1h13.85a2 2 0 0 0 1.74-1 10 10 0 0 0-.27-10.44zm-9.79 6.84a2 2 0 0 0 2.83 0l5.66-8.49-8.49 5.66a2 2 0 0 0 0 2.83z"}),"Speed");xm=Tu.default=Xx;var Au={},qx=$t.exports;Object.defineProperty(Au,"__esModule",{value:!0});var Sm=Au.default=void 0,Zx=qx(Ot),Jx=Dt,e2=(0,Zx.default)((0,Jx.jsx)("path",{d:"M20 4H4c-1.11 0-2 .9-2 2v12c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.89-2-2-2zm0 14H4V8h16v10zm-2-1h-6v-2h6v2zM7.5 17l-1.41-1.41L8.67 13l-2.59-2.59L7.5 9l4 4-4 4z"}),"Terminal");Sm=Au.default=e2;const t2=V.div`
   ${({theme:e})=>le`
     background-color: ${e.colors.secondary};
+    overflow-y: hidden;
 
     @media ${q.mobileS} {
       padding: 0 2rem;
