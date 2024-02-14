@@ -10,7 +10,7 @@ type Props = {
 
 const PersonalInfo = ({ description, value }: Props) => {
   const [ref, entry] = useIntersectionObserver({
-    threshold: 0.5,
+    threshold: 0.01,
     root: null,
     rootMargin: '0px',
   });

@@ -7,7 +7,7 @@ import Title from '../../components/Title';
 import * as S from './styles';
 
 const DEFAULT_OBSERVER_OPTIONS = {
-  threshold: 0.5,
+  threshold: 0.1,
   root: null,
   rootMargin: '0px',
 };

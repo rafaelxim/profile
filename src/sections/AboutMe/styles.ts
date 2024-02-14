@@ -5,7 +5,11 @@ import { device } from '../../styles/mediaQueries';
 export const Wrapper = styled.div`
   background-color: #fff;
 
-  @media ${device.mobileL} {
+  @media ${device.mobileS} {
+    padding: 0 2rem;
+  }
+
+  @media ${device.mobileM} {
     padding: 0 5rem;
   }
 
@@ -34,7 +38,11 @@ export const Title = styled.h2`
 export const Experience = styled.div`
   display: flex;
 
-  @media ${device.mobileL} {
+  @media ${device.mobileS} {
+    flex-direction: column;
+  }
+
+  @media ${device.mobileM} {
     flex-direction: column;
   }
 
@@ -156,7 +164,13 @@ export const InfoData = styled.div`
   justify-content: space-between;
   margin-top: 6rem;
 
-  @media ${device.mobileL} {
+  @media ${device.mobileS} {
+    flex-direction: column;
+    gap: 2rem 0;
+  }
+
+  @media ${device.mobileM} {
+    flex-direction: row;
     flex-wrap: wrap;
   }
 

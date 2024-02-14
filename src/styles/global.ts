@@ -18,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
       font-size: 62.5%;
       font-family: Poppins, sans-serif;
 
-      @media ${device.mobileM} {
+      @media ${device.mobileS} {
         font-size: 46.5%;
       }
 

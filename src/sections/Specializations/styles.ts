@@ -6,7 +6,11 @@ export const Wrapper = styled.div`
   ${({ theme }) => css`
     background-color: ${theme.colors.secondary};
 
-    @media ${device.mobileL} {
+    @media ${device.mobileS} {
+      padding: 0 2rem;
+    }
+
+    @media ${device.mobileM} {
       padding: 0 5rem;
     }
 
@@ -48,7 +52,7 @@ export const ServicesGrid = styled.div`
   margin-top: 6rem;
   gap: 4rem;
 
-  @media ${device.mobileL} {
+  @media ${device.mobileS} {
     grid-template-columns: 1fr;
   }
 

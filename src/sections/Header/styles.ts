@@ -10,12 +10,7 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
 
-    @media ${device.mobileM} {
-      padding: 2rem;
-      gap: 4rem 0;
-    }
-
-    @media ${device.mobileL} {
+    @media ${device.mobileS} {
       padding: 2rem;
       gap: 4rem 0;
     }
@@ -42,7 +37,7 @@ export const Container = styled.div`
   align-items: center;
   flex: 1;
 
-  @media ${device.mobileL} {
+  @media ${device.mobileS} {
     flex-direction: column;
     margin-top: 6.6rem;
     justify-content: flex-start;
@@ -65,8 +60,9 @@ export const DescriptionContainer = styled.div`
     font-size: 7rem;
     font-weight: 600;
     text-transform: uppercase;
-    @media ${device.mobileL} {
-      font-size: 3rem;
+
+    @media ${device.mobileS} {
+      font-size: 4rem;
       line-height: 5.52rem;
     }
 
@@ -112,9 +108,15 @@ export const RoundedBox = styled.div`
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.175) 0px 16px 48px 0px;
 
+    @media ${device.mobileS} {
+      width: 38rem;
+      height: 38rem;
+      padding: 0.6rem;
+    }
+
     @media ${device.mobileL} {
-      width: 35rem;
-      height: 35rem;
+      width: 40rem;
+      height: 40rem;
       padding: 0.6rem;
     }
 

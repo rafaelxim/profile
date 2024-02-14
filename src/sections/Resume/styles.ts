@@ -5,7 +5,11 @@ import { device } from '../../styles/mediaQueries';
 export const Wrapper = styled.div`
   background-color: #fff;
 
-  @media ${device.mobileL} {
+  @media ${device.mobileS} {
+    padding: 0 2rem;
+  }
+
+  @media ${device.mobileM} {
     padding: 0 5rem;
   }
 
@@ -45,7 +49,7 @@ export const JobGrid = styled.div`
   gap: 0 5rem;
   margin-top: 2rem;
 
-  @media ${device.mobileL} {
+  @media ${device.mobileM} {
     grid-template-columns: 1fr;
   }
 

@@ -22,6 +22,14 @@ export const Wrapper = styled.div<WrapperProps>`
 
   transition: all 0.3s ease;
 
+  @media ${device.mobileS} {
+    padding: 1rem 2rem;
+  }
+
+  @media ${device.mobileM} {
+    padding: 2rem 5rem;
+  }
+
   @media ${device.mobileL} {
     padding: 2rem 5rem;
   }
