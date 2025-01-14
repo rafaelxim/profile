@@ -1,5 +1,4 @@
 import { useIntersectionObserver } from '@uidotdev/usehooks';
-import React from 'react';
 
 import Badge from '../../components/Badge';
 import Title from '../../components/Title';
@@ -20,28 +19,28 @@ const RESUME = [
   },
   {
     id: 3,
-    title: 'Desenvolvedor Front-End Jr.',
+    title: 'Desenvolvedor Front-End',
     subtitle: 'F71 Tecnologia / 2016 - 2017',
     description:
       'Criação e manutenção de interfaces de usuário interativas e responsivas usando HTML, CSS e JavaScript.',
   },
   {
     id: 4,
-    title: 'Desenvolvedor Front-End Pleno',
+    title: 'Desenvolvedor Front-End',
     subtitle: 'PSBI Consultoria / 2017 - 2018',
     description:
       'Responsável por projetar, implementar e otimizar interfaces de usuário complexas e dinâmicas.',
   },
   {
     id: 5,
-    title: 'Desenvolvedor Front-End Pleno',
+    title: 'Desenvolvedor Front-End',
     subtitle: 'Banco do Brasil Tecnologia / 2018 - 2019',
     description:
       'Responsável por projetar, implementar e otimizar interfaces de usuário complexas e dinâmicas.',
   },
   {
     id: 6,
-    title: 'Desenvolvedor Front-End Sênior',
+    title: 'Desenvolvedor Front-End',
     subtitle: 'ALLOS / 2019 - 2024',
     description:
       'Desenvolvimento de interfaces de usuário altamente sofisticadas e escaláveis, aplicando profundo conhecimento em tecnologias front-end.',

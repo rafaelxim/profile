@@ -18,7 +18,7 @@ export const Wrapper = styled.div<WrapperProps>`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
 
   transition: all 0.3s ease;
 

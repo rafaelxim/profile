@@ -5,7 +5,6 @@ import SmartphoneIcon from '@mui/icons-material/Smartphone';
 import SpeedIcon from '@mui/icons-material/Speed';
 import TerminalIcon from '@mui/icons-material/Terminal';
 import { useIntersectionObserver } from '@uidotdev/usehooks';
-import React from 'react';
 
 import Badge from '../../components/Badge';
 import Title from '../../components/Title';
@@ -14,45 +13,45 @@ import * as S from './styles';
 const SERVICES = [
   {
     id: 1,
-    title: 'Domínio de linguagens de marcação, estilo e programação',
-    icon: <ColorLensIcon />,
+    title: 'Landing Pages Eficientes',
+    icon: <RecordVoiceOverIcon />,
     description:
-      'Proficiente em HTML para estruturação, CSS para estilização e JavaScript para interatividade. Tenho um sólido entendimento dessas linguagens, e considero fundamental para criar interfaces de usuário eficazes e responsivas.',
+      'Transforme sua ideia em uma landing page poderosa, otimizada para conversões e com design irresistível. Vamos criar a página que vai capturar a atenção de seus clientes e gerar resultados rápidos.',
   },
   {
     id: 2,
-    title: 'Conhecimento de frameworks e bibliotecas',
+    title: 'Portfólio Profissional',
     icon: <ArchitectureIcon />,
     description:
-      'Tenho familiaridade com frameworks e bibliotecas populares, como React.js e Vue.js. Creio que a capacidade de trabalhar com essas ferramentas pode acelerar o desenvolvimento e melhorar a manutenibilidade do código.',
+      'Exiba seu trabalho de forma impactante com um portfólio que reflete sua expertise. Vou ajudá-lo a criar uma vitrine online única, atraente e que conquiste novos clientes de imediato.',
   },
   {
     id: 3,
-    title: 'Experiência em design responsivo',
+    title: 'Sites Corporativos Responsivos',
     icon: <SmartphoneIcon />,
     description:
-      'Creio que minha capacidade de criar interfaces que se adaptem a diferentes dispositivos e resoluções é crucial para garantir uma experiência de usuário consistente.',
+      'Transforme a presença online da sua empresa com um site corporativo elegante e funcional. Atraia clientes e parceiros com um design moderno, navegação intuitiva e informações claras.',
   },
   {
     id: 4,
-    title: 'Habilidades de resolução de problemas e depuração',
+    title: 'Otimização de Sites para SEO',
     icon: <TerminalIcon />,
     description:
-      'Encontrar e corrigir problemas de forma eficiente é uma habilidade essencial. Tenho habilidades sólidas de resolução de problemas e sou capaz de identificar e corrigir bugs de maneira oportuna. ',
+      'Garanta que seu site seja facilmente encontrado no Google. Com uma abordagem focada em SEO, podemos aumentar sua visibilidade online e atrair mais tráfego qualificado. ',
   },
   {
     id: 5,
-    title: 'Colaboração e habilidades de comunicação',
-    icon: <RecordVoiceOverIcon />,
+    title: 'Design Personalizado e Moderno',
+    icon: <ColorLensIcon />,
     description:
-      'Trabalhar em equipe é uma parte essencial do desenvolvimento de software. Sou um desenvolvedor sênior que colabora efetivamente com outros membros da equipe, procuro me comunicar claramente e contribuir para um ambiente de trabalho positivo.',
+      'Com um design criativo e totalmente personalizado, vamos garantir que seu site reflita a identidade da sua marca, proporcionando uma experiência única para seus visitantes.',
   },
   {
     id: 6,
-    title: 'Foco na otimização de desempenho e experiência do usuário',
+    title: 'Suporte e Manutenção Contínuos',
     icon: <SpeedIcon />,
     description:
-      'Estou sempre atento ao desempenho da aplicação e à experiência do usuário. Ao longo dos anos me especializei em otimizar o carregamento de páginas, minimizar o tempo de resposta e criar interfaces intuitivas que proporcionem uma experiência fluida aos usuários.',
+      'Não se preocupe com a manutenção do seu site. Ofereço suporte contínuo para garantir que seu site esteja sempre funcionando perfeitamente e atualizado com as últimas tendências.',
   },
 ];
 
