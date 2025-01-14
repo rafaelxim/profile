@@ -1,8 +1,7 @@
-import React from 'react';
-
 import Navbar from './components/Navbar';
 import AboutMe from './sections/AboutMe';
 import Header from './sections/Header';
+import Portfolio from './sections/Portfolio';
 import Resume from './sections/Resume';
 import Specializations from './sections/Specializations';
 
@@ -14,6 +13,7 @@ function App() {
       <AboutMe />
       <Specializations />
       <Resume />
+      <Portfolio />
     </div>
   );
 }

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "Produto SaaS",
+    "subtitle": "Landing page moderna e otimizada para conversões, destacando os benefícios do produto SaaS com design atraente e chamada para ação estratégica",
+    "link": "http://jano-reactjs.ibthemespro.com/home/sass-product",
+    "category": "landing",
+    "image": "1.png"
+  },
+  {
+    "id": 2,
+    "title": "Aplicativo Móvel",
+    "subtitle": "Página profissional para aplicativo, projetada para destacar funcionalidades, atrair usuários e incentivar downloads com um design intuitivo e responsivo",
+    "link": "http://jano-reactjs.ibthemespro.com/home/app-landing",
+    "category": "landing",
+    "image": "2.png"
+  },
+  {
+    "id": 3,
+    "title": "Lojá Física (venda de sorvetes)",
+    "subtitle": "Site envolvente para loja de sorvetes, combinando um design atrativo com informações essenciais para atrair clientes e aumentar visitas ao local",
+    "link": "https://themewagon.github.io/Romyk/index.html",
+    "category": "landing",
+    "image": "3.png"
+  },
+  {
+    "id": 4,
+    "title": "Agência de Marketing",
+    "subtitle": "Landing page estratégica para agência de marketing, destacando serviços, cases de sucesso e chamada para ação para captar novos clientes",
+    "link": "https://themewagon.github.io/Dewi/",
+    "category": "landing",
+    "image": "4.png"
+  },
+  {
+    "id": 5,
+    "title": "Consultoria Corporativa",
+    "subtitle": "Página profissional para consultoria corporativa, transmitindo credibilidade e destacando soluções estratégicas para empresas.",
+    "link": "https://prium.github.io/elixir/v3.0.0/",
+    "category": "landing",
+    "image": "5.png"
+  },
+  {
+    "id": 6,
+    "title": "Edução",
+    "subtitle": "Página educacional envolvente, destacando cursos, metodologias e chamadas para ação que incentivam a aprendizagem e a inscrição",
+    "link": "http://jano-reactjs.ibthemespro.com/home/education",
+    "category": "corporativo",
+    "image": "6.png"
+  },
+  {
+    "id": 7,
+    "title": "Seguradora",
+    "subtitle": "Página confiável para seguradora, destacando serviços, benefícios e facilitando a captação de clientes com um design intuitivo",
+    "link": "http://jano-reactjs.ibthemespro.com/",
+    "category": "corporativo",
+    "image": "7.png"
+  },
+  {
+    "id": 8,
+    "title": "Agência Digital",
+    "subtitle": "Página dinâmica para agência digital, destacando serviços, cases de sucesso e estratégias para atrair e engajar clientes",
+    "link": "https://ui-themez.smartinnovates.net/items/coco/main.html",
+    "category": "corporativo",
+    "image": "8.png"
+  },
+  {
+    "id": 9,
+    "title": "Tecnologia ",
+    "subtitle": "Página moderna e inovadora para empresa de tecnologia, destacando soluções avançadas e atraindo clientes com um design clean e funcional",
+    "link": "https://themewagon.github.io/Sailor/",
+    "category": "corporativo",
+    "image": "9.png"
+  },
+  {
+    "id": 10,
+    "title": "Hospital / Clínica",
+    "subtitle": "Página informativa e acolhedora para hospital/clinica, destacando serviços médicos e especialidades.",
+    "link": "https://themewagon.github.io/MediCio/index.html",
+    "category": "corporativo",
+    "image": "10.png"
+  },
+  {
+    "id": 11,
+    "title": "Kelly Ilustradora",
+    "subtitle": "Página criativa e visualmente envolvente para portfólio de ilustradora, destacando obras, estilo artístico e serviços personalizados para clientes",
+    "link": "https://themewagon.github.io/Kelly/",
+    "category": "outros",
+    "image": "11.png"
+  },
+  {
+    "id": 12,
+    "title": "Desenvolvedor",
+    "subtitle": "Portfólio profissional para desenvolvedor, exibindo projetos, habilidades técnicas e soluções inovadoras, com foco em resultados e qualidade de código",
+    "link": "https://themewagon.github.io/iPortfolio",
+    "category": "outros",
+    "image": "12.png"
+  },
+  {
+    "id": 13,
+    "title": "Designer",
+    "subtitle": "Portfólio sofisticado para designer, destacando projetos criativos, habilidades em design visual e soluções inovadoras para clientes de diferentes setores.",
+    "link": "https://themewagon.github.io/Jessica/",
+    "category": "outros",
+    "image": "13.png"
+  },
+  {
+    "id": 14,
+    "title": "VideoMaker",
+    "subtitle": "Portfólio dinâmico para videomaker, exibindo projetos audiovisuais impactantes, técnicas de filmagem e edição, com foco em contar histórias visuais únicas",
+    "link": "https://themewagon.github.io/videograph/",
+    "category": "outros",
+    "image": "14.png"
+  }
+]
