@@ -30,6 +30,10 @@ export const Wrapper = styled.div<WrapperProps>`
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 
     ${WrapperModifiers[color]?.()}
   `}

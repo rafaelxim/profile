@@ -1,6 +1,5 @@
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
-import React from 'react';
 import Typewriter from 'typewriter-effect';
 
 import FaceImg from '../../assets/face.jpg';
@@ -25,7 +24,7 @@ const Header = () => {
             }}
             options={{ loop: true }}
           />
-          <S.SubText>do Rio de Janeiro, Brasil</S.SubText>
+          <S.SubText>de: Rio de Janeiro, Brasil</S.SubText>
           <S.Actions>
             <Button>Ver meus trabalhos</Button>
             <S.Link>
