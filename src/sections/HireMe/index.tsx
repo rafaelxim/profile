@@ -11,7 +11,9 @@ const HireMe = () => {
       <Parallax bgImage={ParalaxImage} strength={500}>
         <S.Content>
           <S.Title>Ficou interessado(a) em trabalhar comigo?</S.Title>
-          <Button color="secondary">Me Contrate!</Button>
+          <Button href="https://wa.me/5521975026768" color="secondary">
+            Me Contrate!
+          </Button>
         </S.Content>
       </Parallax>
     </S.Wrapper>
