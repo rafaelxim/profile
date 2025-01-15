@@ -60,7 +60,7 @@ const AboutMe = () => {
         </S.Experience>
         <S.InfoData>
           <PersonalInfo description="Nome:" value="Rafael Herculano" />
-          <PersonalInfo description="Email:" value="rafa.lj@hotmail.com" />
+          <PersonalInfo description="Email:" value="rafaelmherculano@gmail.com" />
           <PersonalInfo description="Nascimento:" value="29 de outubro" />
           <PersonalInfo description="Natural de:" value="Rio de Janeiro, Brasil" />
         </S.InfoData>

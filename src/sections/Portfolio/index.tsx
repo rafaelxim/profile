@@ -45,10 +45,10 @@ const Portfolio = () => {
               selected={nav === 'corporativo'}
               onClick={() => setNav('corporativo')}
             >
-              Sites Corporativos
+              Corporativo
             </S.NavItem>
             <S.NavItem selected={nav === 'landing'} onClick={() => setNav('landing')}>
-              Landing Pages
+              Landing
             </S.NavItem>
             <S.NavItem selected={nav === 'outros'} onClick={() => setNav('outros')}>
               Outros

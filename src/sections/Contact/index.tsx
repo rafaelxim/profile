@@ -15,9 +15,9 @@ const AboutMe = () => {
             conversa
           </S.Paragraph>
           <S.Subtitle>Atualmente em:</S.Subtitle>
-          <S.Paragraph>Recife, PE - Brasil</S.Paragraph>
+          <S.Paragraph>Maricá, RJ - Brasil</S.Paragraph>
           <S.Subtitle>Telefone:</S.Subtitle>
-          <S.Paragraph>81 99488 3942</S.Paragraph>
+          <S.Paragraph>21 97502 6768</S.Paragraph>
         </S.CollumnLeft>
         <S.CollumnRight>
           <S.Title>Vamos Conversar</S.Title>

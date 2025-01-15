@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 
 import Navbar from './components/Navbar';
 import ToTopArrow from './components/ToTopArrow';
+import WhatsCTA from './components/WhatsCTA';
 import AboutMe from './sections/AboutMe';
 import Benefits from './sections/Benefits';
 import Contact from './sections/Contact';
@@ -16,7 +17,6 @@ import Steps from './sections/Steps';
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // Função para monitorar a posição do scroll
   const handleScroll = () => {
     if (window.scrollY > 0) {
       setIsScrolled(true);
@@ -28,7 +28,6 @@ function App() {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
 
-    // Limpeza do evento ao desmontar o componente
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -49,6 +48,7 @@ function App() {
       <Steps />
       <Contact />
       <Footer />
+      <WhatsCTA />
     </div>
   );
 }
