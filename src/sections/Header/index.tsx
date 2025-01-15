@@ -9,7 +9,7 @@ import * as S from './styles';
 
 const Header = () => {
   return (
-    <S.Wrapper>
+    <S.Wrapper id="heading">
       <S.Container>
         <S.DescriptionContainer>
           <S.HeadingText>Olá, sou Rafael</S.HeadingText>
