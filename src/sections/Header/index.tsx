@@ -4,6 +4,7 @@ import Typewriter from 'typewriter-effect';
 
 import FaceImg from '../../assets/face.jpg';
 import Button from '../../components/Button';
+import { scrollToSection } from '../../helpers';
 import * as S from './styles';
 
 const Header = () => {
@@ -26,8 +27,10 @@ const Header = () => {
           />
           <S.SubText>de: Rio de Janeiro, Brasil</S.SubText>
           <S.Actions>
-            <Button>Ver meus trabalhos</Button>
-            <S.Link>
+            <a href="#portfolio">
+              <Button>Ver meus trabalhos</Button>
+            </a>
+            <S.Link href="#contato">
               <span>Contato</span>
               <ArrowCircleDownIcon />
             </S.Link>
@@ -40,7 +43,7 @@ const Header = () => {
         </S.ImageContaner>
       </S.Container>
       <S.IconContainer>
-        <ArrowDownwardIcon />
+        <ArrowDownwardIcon onClick={() => scrollToSection('about')} />
       </S.IconContainer>
     </S.Wrapper>
   );

@@ -1,5 +1,4 @@
 import { useIntersectionObserver } from '@uidotdev/usehooks';
-import React from 'react';
 
 import Badge from '../../components/Badge';
 import PersonalInfo from '../../components/PersonalInfo';
@@ -23,7 +22,7 @@ const AboutMe = () => {
   );
 
   return (
-    <S.Wrapper>
+    <S.Wrapper id="about">
       <S.Content>
         <S.Heading>
           <Badge>Sobre Mim</Badge>

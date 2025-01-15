@@ -40,11 +40,23 @@ export const Wrapper = styled.div`
 
 export const Grid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
   padding: 5rem 0;
+
+  @media ${device.mobileM} {
+    grid-template-columns: 1fr;
+  }
+  @media ${device.tablet} {
+    grid-template-columns: 1fr 1fr;
+  }
 `;
 export const CollumnLeft = styled.div`
   padding: 0 2rem;
+  margin-bottom: 5rem;
+
+  @media ${device.tablet} {
+    margin-bottom: 0;
+    grid-template-columns: 1fr 1fr;
+  }
 `;
 export const CollumnRight = styled.div`
   padding: 0 2rem;

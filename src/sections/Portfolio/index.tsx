@@ -30,7 +30,7 @@ const Portfolio = () => {
   };
 
   return (
-    <S.Wrapper>
+    <S.Wrapper id="portfolio">
       <S.Content>
         <S.Heading>
           <Badge>Portfólio</Badge>

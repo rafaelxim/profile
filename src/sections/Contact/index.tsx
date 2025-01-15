@@ -5,7 +5,7 @@ import * as S from './styles';
 
 const AboutMe = () => {
   return (
-    <S.Wrapper>
+    <S.Wrapper id="contato">
       <S.Grid>
         <S.CollumnLeft>
           <S.Title>Entre em contato</S.Title>

@@ -111,6 +111,8 @@ export const Overlay = styled.div`
 export const ProjectBox = styled.div`
   position: relative;
   cursor: pointer;
+  max-height: 30rem;
+  overflow: hidden;
 
   :hover {
     ${Overlay} {

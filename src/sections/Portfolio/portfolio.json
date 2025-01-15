@@ -5,7 +5,7 @@
     "subtitle": "Landing page moderna e otimizada para conversões, destacando os benefícios do produto SaaS com design atraente e chamada para ação estratégica",
     "link": "http://jano-reactjs.ibthemespro.com/home/sass-product",
     "category": "landing",
-    "image": "1.png"
+    "image": "1.jpg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "subtitle": "Página profissional para aplicativo, projetada para destacar funcionalidades, atrair usuários e incentivar downloads com um design intuitivo e responsivo",
     "link": "http://jano-reactjs.ibthemespro.com/home/app-landing",
     "category": "landing",
-    "image": "2.png"
+    "image": "2.jpg"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "subtitle": "Site envolvente para loja de sorvetes, combinando um design atrativo com informações essenciais para atrair clientes e aumentar visitas ao local",
     "link": "https://themewagon.github.io/Romyk/index.html",
     "category": "landing",
-    "image": "3.png"
+    "image": "3.jpg"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "subtitle": "Página profissional para consultoria corporativa, transmitindo credibilidade e destacando soluções estratégicas para empresas.",
     "link": "https://prium.github.io/elixir/v3.0.0/",
     "category": "landing",
-    "image": "5.png"
+    "image": "5.jpg"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "subtitle": "Página educacional envolvente, destacando cursos, metodologias e chamadas para ação que incentivam a aprendizagem e a inscrição",
     "link": "http://jano-reactjs.ibthemespro.com/home/education",
     "category": "corporativo",
-    "image": "6.png"
+    "image": "6.jpg"
   },
   {
     "id": 7,
@@ -77,7 +77,7 @@
     "subtitle": "Página informativa e acolhedora para hospital/clinica, destacando serviços médicos e especialidades.",
     "link": "https://themewagon.github.io/MediCio/index.html",
     "category": "corporativo",
-    "image": "10.png"
+    "image": "10.jpg"
   },
   {
     "id": 11,

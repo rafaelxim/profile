@@ -41,3 +41,5 @@ export const Wrapper = styled.div<WrapperProps>`
     background-color: rgb(66, 70, 73);
   }
 `;
+
+export const Link = styled.a``;

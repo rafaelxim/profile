@@ -3,6 +3,8 @@ import { createGlobalStyle, css } from 'styled-components';
 import { device } from './mediaQueries';
 
 const GlobalStyles = createGlobalStyle`
+
+
     
   * {
     margin: 0;
@@ -17,6 +19,7 @@ const GlobalStyles = createGlobalStyle`
     html {
       font-size: 62.5%;
       font-family: Poppins, sans-serif;
+      scroll-behavior: smooth;
 
       @media ${device.mobileS} {
         font-size: 46.5%;
@@ -49,6 +52,10 @@ const GlobalStyles = createGlobalStyle`
     body {
       background-color: ${theme.colors.background.default};
       color: ${theme.colors.text.primary};
+    }
+
+    a {
+      text-decoration: none;
     }
   `}
 `;

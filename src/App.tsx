@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import AboutMe from './sections/AboutMe';
 import Benefits from './sections/Benefits';
 import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 import Header from './sections/Header';
 import HireMe from './sections/HireMe';
 import Portfolio from './sections/Portfolio';
@@ -22,6 +23,7 @@ function App() {
       <Benefits />
       <Steps />
       <Contact />
+      <Footer />
     </div>
   );
 }

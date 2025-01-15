@@ -134,7 +134,7 @@ export const Image = styled.img`
   border-radius: 50%;
 `;
 
-export const Link = styled.p`
+export const Link = styled.a`
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 2.4rem;
@@ -144,6 +144,14 @@ export const Link = styled.p`
   display: flex;
   align-items: center;
   gap: 1rem;
+  text-decoration: none;
+  color: #333;
+
+  :visited,
+  :focus,
+  :active {
+    color: #333;
+  }
 
   > svg {
     font-size: 2.5rem;
@@ -167,5 +175,6 @@ export const IconContainer = styled.div`
   > svg {
     animation: ${fadeInDown} 1s linear infinite;
     font-size: 3.5rem;
+    cursor: pointer;
   }
 `;
