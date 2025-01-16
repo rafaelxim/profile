@@ -5,14 +5,14 @@ import * as S from './styles';
 type Props = {
   children: React.ReactNode;
   color?: 'primary' | 'secondary';
-  href?: string;
+  click?: () => void;
 };
 
-const Button = ({ children, color = 'primary', href }: Props) => {
+const Button = ({ children, color = 'primary', click }: Props) => {
   return (
-    <S.Link href={href}>
-      <S.Wrapper color={color}>{children}</S.Wrapper>
-    </S.Link>
+    <S.Wrapper onClick={() => click && click()} color={color}>
+      {children}
+    </S.Wrapper>
   );
 };
 
