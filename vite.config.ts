@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     outDir: 'build',
   },
-  base: 'https://rafaelxim.github.io/profile/',
+  // base: 'https://rafaelxim.github.io/profile/',
 });
