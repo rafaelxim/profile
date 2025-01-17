@@ -34,6 +34,7 @@ export const DataDescription = styled.p`
     font-weight: 500;
     line-height: 2.88rem;
     color: ${theme.colors.text.grey};
+    margin-right: 2rem;
   `}
 `;
 export const DataValue = styled.p`

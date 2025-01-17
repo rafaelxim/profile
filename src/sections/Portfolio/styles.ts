@@ -91,7 +91,7 @@ export const Overlay = styled.div`
   bottom: 0;
   display: flex !important;
   left: 0;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   right: 0;
   text-align: center;
@@ -101,6 +101,10 @@ export const Overlay = styled.div`
   justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
+
+  @media ${device.laptop} {
+    opacity: 0;
+  }
 
   svg {
     fill: #f5df4e;

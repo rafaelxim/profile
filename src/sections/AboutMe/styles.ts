@@ -167,15 +167,11 @@ export const InfoData = styled.div`
 
   @media ${device.mobileS} {
     flex-direction: column;
-    gap: 2rem 0;
-  }
-
-  @media ${device.mobileM} {
-    flex-direction: row;
-    flex-wrap: wrap;
+    gap: 2rem;
   }
 
   @media ${device.tablet} {
+    flex-direction: row;
     flex-wrap: nowrap;
   }
 `;
